@@ -1,8 +1,0 @@
-{
-    "files.associations": {
-        "*.cu": "cpp",
-        "string": "cpp",
-        "filesystem": "cpp",
-        "iosfwd": "cpp"
-    }
-}
