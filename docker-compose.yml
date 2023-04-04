@@ -12,6 +12,12 @@ services:
     restart: always
     entrypoint: WeatherService
 
+  beverage-preference-service:
+    image: alielzei/vending-machine-microservices:latest
+    hostname: beverage-preference-service
+    restart: always
+    entrypoint: BeveragePreferenceService
+
   nginx-thrift:
     image: yg397/openresty-thrift:xenial
     hostname: nginx-thrift
